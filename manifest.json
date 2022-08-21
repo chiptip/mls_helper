@@ -1,0 +1,12 @@
+{
+    "name": "MLS helper",
+    "description": "provide helper functcions for MLS users",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": ["https://matrix.onekeymlsny.com/*"],
+            "js": ["content_script.js"]
+        }
+    ]
+}
